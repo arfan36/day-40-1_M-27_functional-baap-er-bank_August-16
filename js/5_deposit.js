@@ -1,4 +1,4 @@
-
+// DRY Do not repeat yourself
 
 document.getElementById('btn-deposit').onclick = function () {
     /* 
