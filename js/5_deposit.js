@@ -16,10 +16,10 @@ document.getElementById('btn-deposit').onclick = function () {
     const newDepositTotal = previousDepositTotal + newDepositAmount;
 
     // set deposit total value
-    setTextElementValue('deposit-total', newDepositTotal);
+    setTextElementValueById('deposit-total', newDepositTotal);
 
     // get previous balance by using the function
     const previousBalnaceTotal = getTextElementValueById('balance-total');
     const newBalanceTotal = previousBalnaceTotal + newDepositAmount;
-    setTextElementValue('balance-total', newBalanceTotal);
+    setTextElementValueById('balance-total', newBalanceTotal);
 };
